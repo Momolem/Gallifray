@@ -19,6 +19,7 @@ system:
     - org.onlyoffice.desktopeditors
     - com.github.IsmaelMartinez.teams_for_linux
     - dev.zed.Zed
+    - org.gnome.Extensions
   remove: []
 user:
   repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo

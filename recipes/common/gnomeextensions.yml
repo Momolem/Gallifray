@@ -1,12 +1,8 @@
 type: gnome-extensions
 install:
   #- Application Volume Mixer # Not compatible with current Gnome Version
-  - Caffeine
   - Clipboard History
   - Compiz alike magic lamp effect
-  - Dash to Panel
   - HeadsetControl
-  - No overview at start-up
   - Smart Home
   - 2890 # Tray Icons: Reloaded
-  - AppIndicator and KStatusNotifierItem Support

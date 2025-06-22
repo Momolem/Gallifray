@@ -1,0 +1,3 @@
+type: script
+scripts:
+  - enable-gnome-extensions.sh

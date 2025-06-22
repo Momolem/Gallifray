@@ -1,0 +1,28 @@
+type: dnf
+repos:
+  cleanup: true # clean up added repos after module is done
+  files:
+    - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+    - fury.repo
+  copr:
+    - atim/starship
+    - trixieua/mutter-patched
+  keys:
+    - https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
+  nonfree: rpmfusion
+install:
+  skip-unavailable: true # skip unavailable packages
+  packages:
+    - starship
+    - deja-dup
+    - gnome-tweaks
+    - steam
+    - google-chrome
+    - inkscape
+    - gimp
+    - lingot
+    - openh264
+    - gstreamer1-plugin-openh264
+remove:
+  packages:
+    - libreoffice-*

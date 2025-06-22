@@ -1,0 +1,27 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
+type: default-flatpaks
+notify: true
+system:
+  repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+  repo-name: flathub
+  install:
+    - org.gtk.Gtk3theme.Adwaita-dark
+    - com.visualstudio.code
+    - com.spotify.Client
+    - com.bitwarden.desktop
+    - com.discordapp.Discord
+    - com.getpostman.Postman
+    - com.github.tchx84.Flatseal
+    - md.obsidian.Obsidian
+    - org.gnome.Extensions
+    - org.remmina.Remmina
+    - org.onlyoffice.desktopeditors
+    - com.github.IsmaelMartinez.teams_for_linux
+    - dev.zed.Zed
+  remove: []
+user:
+  repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+  repo-name: flathub-user
+  install: []
+  remote: []

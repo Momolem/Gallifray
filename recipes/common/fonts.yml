@@ -1,0 +1,12 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
+type: fonts
+fonts:
+  nerd-fonts:
+    - FiraCode
+    - SourceCodePro
+  google-fonts:
+    - Red Hat Display
+    - Red Hat Text
+    - Red Hat Mono
+    - Open Sans

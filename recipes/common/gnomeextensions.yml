@@ -1,6 +1,6 @@
 type: gnome-extensions
 install:
-  - Application Volume Mixer
+  #- Application Volume Mixer # Not compatible with current Gnome Version
   - Caffeine
   - Clipboard History
   - Compiz alike magic lamp effect

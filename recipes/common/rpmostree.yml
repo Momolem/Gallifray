@@ -1,6 +1,0 @@
-type: rpm-ostree
-install:
-  - gnome-shell-extension-caffeine
-  - gnome-shell-extension-dash-to-panel
-  - gnome-shell-extension-no-overview
-  - gnome-shell-extension-appindicator

@@ -12,6 +12,10 @@ install:
     - lingot
     - openh264
     - gstreamer1-plugin-openh264
+    - gnome-shell-extension-caffeine
+    - gnome-shell-extension-dash-to-panel
+    - gnome-shell-extension-no-overview
+    - gnome-shell-extension-appindicator
 remove:
   packages:
     - libreoffice-*

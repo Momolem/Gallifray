@@ -18,7 +18,7 @@ system:
     - org.remmina.Remmina
     - org.onlyoffice.desktopeditors
     - com.github.IsmaelMartinez.teams_for_linux
-    - dev.zed.Zed
+    - app.zen_browser.zen
     - org.gnome.Extensions
   remove: []
 user:

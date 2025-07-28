@@ -1,10 +1,9 @@
 ---
-# yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
+# yaml-language-server: $schema=https://schema.blue-build.org/modules/default-flatpaks-v2.json
 type: default-flatpaks
-notify: true
-system:
-  repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-  repo-name: flathub
+configurations:
+- notify: true
+  scope: system
   install:
     - org.gtk.Gtk3theme.Adwaita-dark
     - com.visualstudio.code
@@ -21,8 +20,3 @@ system:
     - app.zen_browser.zen
     - org.gnome.Extensions
   remove: []
-user:
-  repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-  repo-name: flathub-user
-  install: []
-  remote: []
